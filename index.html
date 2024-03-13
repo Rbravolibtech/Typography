@@ -5,10 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+    fontFamily: {
+      'sans': ['ui-sans-serif', 'system-ui', 'sans-serif'],
+      'serif': ['ui-serif', 'Georgia', 'serif'],
+      'mono': ['ui-monospace', 'SFMono-Regular', 'monospace'],
+      'display': ['Oswald', 'sans-serif'],
+      'body': ['"Open Sans"', 'sans-serif'],
+    },
+  },
+      }
+    </script>
     <title>Typography</title>
   </head>
   <body>
     <!-- Font Family -->
+
+    <div class="font-sans">Tailwind is Awesome</div>
+    <div class="font-serif">Tailwind is Awesome</div>
+    <div class="font-mono">Tailwind is Awesome</div>
 
     <!-- Font Size -->
 
